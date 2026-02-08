@@ -1,0 +1,57 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+.yarn
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Terraform - Do not commit these
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate*
+*.tfstate*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Build
+dist/
+build/
+
+# Mobile specific
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.cer
+*.bak
+
+# Generated files
+mobile/generated/
+infrastructure/generated/
